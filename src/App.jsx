@@ -1,8 +1,12 @@
 import React from 'react'
 
+
+
 const App = () => {
   return (
-    <div>alif</div>
+    <div>
+    <h1>component finish</h1>
+    </div>
   )
 }
 
