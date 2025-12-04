@@ -7,7 +7,7 @@ import Image from '../components/Image'
 
 const Banner = () => {
     return (
-        <section className='py-20'>
+        <section className='pt-20'>
             <Container>
                 <Flex className='items-center'>
                     <div className='w-1/2'>
