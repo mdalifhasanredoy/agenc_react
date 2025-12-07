@@ -4,8 +4,8 @@ import Image from '../components/Image'
 const CounterSuccess = ({ title, text }) => {
     return (
         <div>
-            <h2 className='text-[50px] text-[#151515] font-bold font-["Inter"]'>{title}</h2>
-            <p className='text-xl text-[#737373] font-medium font-["Inter"] pt-5 pb-5'>{text}</p>
+            <h2 className='text-[50px] text-third font-bold font-inter'>{title}</h2>
+            <p className='text-xl text-primary font-medium font-inter pt-5 pb-5'>{text}</p>
 
             
         </div>
