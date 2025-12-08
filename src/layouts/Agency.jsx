@@ -14,7 +14,7 @@ import Image from '../components/Image'
 
 const Agency = () => {
     return (
-        <section className='pb-[150px]'>
+        <section className='pb-[150px] pt-[150px]'>
             <Container>
                 <Flex className="items-end">
                     <div className='w-7/12'>
@@ -31,7 +31,7 @@ const Agency = () => {
                         </div>
                     </div>
                     <div className='w-5/12 '>
-                    <Image src={agencyimg}/>
+                        <Image src={agencyimg} />
                     </div>
                 </Flex>
 
