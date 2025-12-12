@@ -14,9 +14,8 @@ import Flex from '../components/Flex'
 
 const Work = () => {
   return (
-    <section>
+    <section className="bg-[#F3F3F3]  pt-[150px] pb-[150px]">
         <Container>
-          <div className='bg-[#F3F3F3] pt-[150px] pb-[150px]'>
               <Heading text="Our Recent Work" className="text-center"/>
             <SubHeading text="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form." className="text-center w-[653px] mx-auto p-6"/>
 
@@ -37,7 +36,6 @@ const Work = () => {
                 <WorkCard image={workfive} title="Dashboard Design" text="This is a task management application that can help you be more "/>
                 <WorkCard image={worksix} title="Web App Design" text="This is a task management application that can help you be more "/>
             </Flex>
-          </div>
         </Container>
     </section>
   )
