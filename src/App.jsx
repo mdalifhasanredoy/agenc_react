@@ -6,6 +6,7 @@ import Service from './layouts/Service'
 import Agency from './layouts/Agency'
 import Work from './layouts/Work'
 import Contact from './layouts/Contact'
+import Footer from './layouts/Footer'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
     <Work/>
     <Agency/>
     <Contact/>
+    <Footer/>
     
 
 
