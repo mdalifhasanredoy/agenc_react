@@ -10,17 +10,17 @@ const Contact = () => {
     return (
         <section className='bg-[#F3F3F3] py-150'>
             <Container>
-                <Flex className="items-center">
-                    <div className='w-1/2'>
-                        <Heading className="w-[450px] pb-5 leading-[55px]" text="We Do design, Code & Development" />
-                        <SubHeading className="w-[514px] leading-[26px]" text="I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority." />
+                <Flex className="items-center !block md:!flex">
+                    <div className='md:w-1/2 px-5 md:px-0'>
+                        <Heading className="md:w-[450px] pb-5 leading-[55px] text-center md:text-left" text="We Do design, Code & Development" />
+                        <SubHeading className="md:w-[514px] leading-[26px]" text="I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority." />
 
-                        <SubHeading className="w-[514px] leading-[26px] pt-2.5 " text="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form." />
+                        <SubHeading className="md:w-[514px] leading-[26px] pt-2.5 " text="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form." />
 
                     </div>
-                    <div className='w-1/2'>
-                    <div className='w-[536px] py-[61px] px-[43px] bg-white rounded-[20px]'>
-                        <h4 className=' text-[30px] text-third font-bold font-inter text-center mb-[30px] '>Get a free quote now</h4>
+                    <div className='md:w-1/2'>
+                    <div className='mx-3 md:mx-0 md:w-[536px] py-[61px] px-[43px] bg-white rounded-[20px] mt-[40px] md:mt-0'>
+                        <h4 className='text-[25px] md:text-[30px] text-third font-bold font-inter text-center mb-[30px] '>Get a free quote now</h4>
                       <ContactInput text='Name' place='Enter your name'/>
                       <ContactInput text='Email' place='Enter your email'/>
                       <ContactInput text='Phone' place='Enter your phone number'/>

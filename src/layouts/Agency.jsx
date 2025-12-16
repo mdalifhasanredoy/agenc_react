@@ -16,22 +16,22 @@ const Agency = () => {
     return (
         <section className='pb-[150px] pt-[150px]'>
             <Container>
-                <Flex className="items-end">
-                    <div className='w-7/12'>
-                        <Heading className="w-[508px] leading-[55px]" text="Why You Should Choose Agenc" />
+                <Flex className="items-end !block md:!flex ">
+                    <div className='md:w-7/12'>
+                        <Heading className="md:w-[508px] leading-[55px] text-center md:text-left" text="Why You Should Choose Agenc" />
 
-                        <SubHeading className="w-[480px] pt-5 pb-[85px] leading-[26px]" text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable." />
+                        <SubHeading className="px-4 md:px-0 md:w-[480px] pt-5 pb-[85px] leading-[26px]" text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable." />
 
-                        <Flex>
+                        <Flex className="!block md:!flex">
                             <AgencyCard image={agencyone} title="Innovative Ideas" text="Because each project is different, we adapt to your business model." />
                             <AgencyCard className="mt-10" image={agencytwo} title="Dedicated Support" text="We provide 24/7 support for all our clients and serve them professionally." />
                         </Flex>
-                        <div className='ml-[200px] mt-[50px]'>
+                        <div className='md:ml-[200px] mt-[50px]'>
                             <AgencyCard image={agencythree} title="Honest Pricing" text="Pricing on projects are based on various analyzes and are cost effective." />
                         </div>
                     </div>
-                    <div className='w-5/12 '>
-                        <Image src={agencyimg} />
+                    <div className='md:w-5/12 '>
+                        <Image className="w-3/4 mx-auto pt-10 md:pt-0 md:w-full" src={agencyimg} />
                     </div>
                 </Flex>
 
