@@ -12,7 +12,7 @@ const Contact = () => {
             <Container>
                 <Flex className="items-center">
                     <div className='w-1/2'>
-                        <Heading className="w-[450px] pb-5 " text="We Do design, Code & Development" />
+                        <Heading className="w-[450px] pb-5 leading-[55px]" text="We Do design, Code & Development" />
                         <SubHeading className="w-[514px] leading-[26px]" text="I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority." />
 
                         <SubHeading className="w-[514px] leading-[26px] pt-2.5 " text="There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form." />

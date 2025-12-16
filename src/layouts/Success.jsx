@@ -14,33 +14,33 @@ const Success = () => {
     return (
         <section className='py-[150px]'>
             <Container >
-                <Flex className='bg-[#F8F6FE] py-[86px] px-12 rounded-[20px]'>
-                    <div className='w-5/12'>
+                <Flex className='bg-[#F8F6FE] py-[86px] px-12 rounded-[20px] !block md:!flex'>
+                    <div className='md:w-5/12'>
                         <h6 className='text-2xl text-[#6A4DF4] font-medium font-["Inter"]'>Our Success</h6>
-                        <h3 className='w-[387px] text-4xl text-[#151515] font-semibold font-["Inter"] pt-4'>
+                        <h3 className='md:w-[387px] text-3xl md:text-4xl text-[#151515] font-semibold font-["Inter"] pt-4 pb-3 md:pb-0'>
                             West cost Brand makers-Global Edge
                         </h3>
                     </div>
-                    <div className='w-7/12 '>
+                    <div className='md:w-7/12 '>
 
                         <Flex className='justify-between'>
 
                             <div>
                                 <CounterSuccess title="200+" text="Customer Satisfied" />
                                 <div className='relative'>
-                                    <div className='absolute top-[0px] left-[0px] w-[35px] h-[35px] rounded-full border-2 border-white'>
+                                    <div className='absolute top-[0px] left-[0px] w-[24px] h-[24px] md:w-[35px] md:h-[35px] rounded-full border-2 border-white'>
                                         <Image className='full rounded-full' src={eclipseone} />
                                     </div>
-                                    <div className='absolute top-[0px] left-[15px] w-[35px] h-[35px] rounded-full border-2 border-white'>
+                                    <div className='absolute top-[0px] left-[15px] w-[24px] h-[24px] md:w-[35px] md:h-[35px] rounded-full border-2 border-white'>
                                         <Image className='full rounded-full' src={eclipsetwo} />
                                     </div>
-                                    <div className='absolute top-[0px] left-[30px] w-[35px] h-[35px] rounded-full border-2 border-white'>
+                                    <div className='absolute top-[0px] left-[30px] w-[24px] h-[24px] md:w-[35px] md:h-[35px] rounded-full border-2 border-white'>
                                         <Image className='full rounded-full' src={eclipsethree} />
                                     </div>
-                                    <div className='absolute top-[0px] left-[50px] w-[35px] h-[35px] rounded-full border-2 border-white'>
+                                    <div className='absolute top-[0px] left-[50px] w-[24px] h-[24px] md:w-[35px] md:h-[35px] rounded-full border-2 border-white'>
                                         <Image className='full rounded-full' src={eclipsefour} />
                                     </div>
-                                    <div className='absolute top-[0px] left-[70px] w-[35px] h-[35px] rounded-full border-2 border-white'>
+                                    <div className='absolute top-[0px] left-[70px] w-[24px] h-[24px] md:w-[35px] md:h-[35px] rounded-full border-2 border-white'>
                                         <Image className='full rounded-full' src={eclipsefive} />
                                     </div>
                                 </div>
@@ -48,12 +48,12 @@ const Success = () => {
 
                             <div>
                                 <CounterSuccess title="4.5" text="200+ Avg rating" />
-                                <ul className='flex gap-x-2'>
-                                    <li><FaStar className='text-[#FFAC4A]' /></li>
-                                    <li><FaStar className='text-[#FFAC4A]' /></li>
-                                    <li><FaStar className='text-[#FFAC4A]' /></li>
-                                    <li><FaStar className='text-[#FFAC4A]' /></li>
-                                    <li><FaStar className='text-[#FFAC4A]' /></li>
+                                <ul className='flex gap-x-0.5 md:gap-x-2'>
+                                    <li><FaStar className='text-[#FFAC4A] text-xs' /></li>
+                                    <li><FaStar className='text-[#FFAC4A] text-xs' /></li>
+                                    <li><FaStar className='text-[#FFAC4A] text-xs' /></li>
+                                    <li><FaStar className='text-[#FFAC4A] text-xs' /></li>
+                                    <li><FaStar className='text-[#FFAC4A] text-xs' /></li>
                                 </ul>
                             </div>
 

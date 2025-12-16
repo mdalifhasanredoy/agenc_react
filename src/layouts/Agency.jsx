@@ -18,7 +18,7 @@ const Agency = () => {
             <Container>
                 <Flex className="items-end">
                     <div className='w-7/12'>
-                        <Heading className="w-[508px]" text="Why You Should Choose Agenc" />
+                        <Heading className="w-[508px] leading-[55px]" text="Why You Should Choose Agenc" />
 
                         <SubHeading className="w-[480px] pt-5 pb-[85px] leading-[26px]" text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable." />
 
